@@ -7,4 +7,6 @@ export const routes = route({
     show: get("/tests/:testId"),
     edit: form("/tests/:testId/edit")
   },
+  game: {
+    show: get("/game/:gameId")}
 })
